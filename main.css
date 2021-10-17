@@ -1,0 +1,29 @@
+a {
+    position: absolute;
+    bottom: 5%;
+    left: 49%;
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+div.settings {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 5px;
+}
+
+div.settings label {
+    text-align: left;
+}
+
+div.settings label:before {
+    content: " ";
+}
+
+* {
+    font-size: 18px;
+    color: white;
+    background-color: #000438;
+}
